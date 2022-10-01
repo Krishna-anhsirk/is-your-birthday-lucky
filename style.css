@@ -60,31 +60,26 @@ body {
   font-size: 1.7rem;
 }
 
-.footer {
-  width: 100%;
-  text-align: center;
-  padding: 1.2rem;
-  position: absolute;
-  bottom: 0px;
-}
-
 .privacy-notice {
+  text-align: center;
   font-size: 1.2rem;
+  bottom: 2rem;
 }
 
-.socials {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin: 1rem;
+/* Footer  */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 45vw;
 }
 
-.social-item {
-  margin-right: 1rem;
+a,
+img,
+li {
+  display: inline;
 }
 
-.social-item a {
-  text-decoration: none;
-  color: var(--secondary-colour);
-  cursor: pointer;
+img {
+  width: 40px;
+  padding: 1rem 0.2rem;
 }
